@@ -9,7 +9,7 @@ function Header() {
         />
       </div>
       <div>
-        <button>Cart</button>
+        <button>🛒 Cart</button>
       </div>
       <div>
         <button>LogIn</button>
