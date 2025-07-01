@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 function Header() {
   return (
     <div className="flex justify-around items-center bg-slate-600 h-20 ">
@@ -9,7 +10,9 @@ function Header() {
         />
       </div>
       <div>
-        <button>🛒 Cart</button>
+        <Link to="/cart">
+          <button>🛒 Cart</button>
+        </Link>
       </div>
       <div>
         <button>LogIn</button>
